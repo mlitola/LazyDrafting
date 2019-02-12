@@ -1,15 +1,14 @@
 # LazyDrafting
-A command line tool for text editing and making simple ascii drawings.
+A command line tool for a text editing and making simple ascii art.
 
 ## Description
-I wanted to do some programming with the  new curses lib using standard C (C99) 
+I wanted to do programming with the new curses lib using standard C (C99) 
 and make something simple with it. Made this lazy text editor with a drawing 
-mode. Very basic functionality and mostly just a lazy draft.
+mode. It has very basic functionality and mostly it is just a lazy draft.
 
 ### Requirements:
-
 - New curses lib
-- C compiler (clang, cc)
+- C compiler (clang, gcc)
 
 ### Install and compile:
 Install ncurses and compile with make:
@@ -20,7 +19,7 @@ sudo apt install libncurses5-dev
 # install ncurses MacOS using homebrew:
 brew install ncurses
 
-# compile with make (cc or clang used)
+# compile with make (gcc or clang used)
 make clean && make
 
 ```

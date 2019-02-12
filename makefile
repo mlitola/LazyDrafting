@@ -1,5 +1,5 @@
 CC=cc
-CXX=gcc
+CXX=cc
 RM=rm -f
 LDLIBS=$(zsh root-config --libs) -lncurses
 
