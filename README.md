@@ -1,0 +1,2 @@
+# LazyDrafting
+Simple ncurses app
